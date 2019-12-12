@@ -1,0 +1,97 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+
+
+.statusbar-overlay {
+    background: #4ed6ff;
+}
+.navbar-inner a span{
+    background: #e91e63;
+}
+
+.demo-card-header-pic .card-header {
+    height: 20vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(255, 255, 255);
+  }
+  .demo-card-header-pic .card-content-padding .date{
+    color: rgb(255, 255, 255);
+  }
+
+  .align-items-flex-end{
+      align-items: flex-end;
+  }
+
+  .card-content-padding{
+      padding: 10px;
+  }
+  .page-content {
+      background: rgb(248, 230, 230);
+  }
+  .bienvenidx{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      flex-wrap: wrap;
+      margin: 3%;
+  }
+  .welcome {
+      font-size: 2rem;
+      color: #e91e63;
+  }
+  .button-big{
+      margin: 4%;
+      background: #e91e63;
+  }
+  .theme-pink a {
+    color: #fff;  
+}
+  .que-es {
+      font-size: 1rem;
+      color: rgb(128, 124, 119);
+  }
+  .menu-desplegable {
+      list-style: none;
+      background: rgb(128, 124, 119);
+  }
+ .menu-desplegable li a{
+     color: #fff;
+ }
+ .panel{
+     background: rgb(128, 124, 119);
+ }
+
+/* page encontre */
+
+
+.intro-form{
+    font-size: 1rem;
+    color: #fff;
+    background: #e91e63;
+    padding: 3%;
+    margin: 0;
+}
+.formu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+ justify-content: space-around;    
+}
+
+.card-footer .link{
+color: #e91e63;
+}
+
+  
+

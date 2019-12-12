@@ -1,0 +1,194 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="#" class="back link">
+                <i class="icon icon-back"></i>
+                <span>Volver</span>
+            </a>
+        </div>
+        <div class="center sliding">Cargar mascota</div>
+        <!-- <div class="right">
+            <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+        </div> -->
+    </div>
+</div>
+<div class="pages">
+    <div data-page="encontre" class="page">
+        <div class="page-content">
+            
+
+
+
+    <div class="content-block-title">Ingresá los datos de la mascota</div>
+
+    <div class="card-content card-content-padding">
+        <p class="intro-form">Intenta ser lo más concreta/o posible para que la publicaciín sea clara y mejore la experiencia de búsqueda! Gracias!</p>
+      </div>
+      <div class="list" id="my-form">
+          <ul class="formu">
+            <li>
+              <div class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Mascota</div>
+                  <input type="text" name="tipomascota" placeholder="Perro,gato,etc" id="tipomascota">
+                  <div class="item-input-wrap">                                                                       
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li> 
+                  <div class="item-content item-input">
+                          <div class="item-inner">
+                            <div class="item-title item-label">Raza/Color/Tamaño?</div>
+                            <div class="item-input-wrap">
+                              <input type="text" name="tamaño" placeholder="Mestizo, Bulldog, etc" id="tamaño" >
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="item-content item-input">
+                          <div class="item-inner">
+                            <div class="item-title item-label">Barrio/Zona</div>
+                            <div class="item-input-wrap">
+                              <input type="text" name="caracteristicas" id="caracteristicas" placeholder="Caballito, Almagro, etc">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                      <div class="item-content item-input">
+                              <div class="item-inner">
+                                <div class="item-title item-label">Tel de contacto</div>
+                                <div class="item-input-wrap">
+                                  <input type="tel" name="telcontacto" placeholder="+541120202020" id="telcontacto">
+                                </div>
+                              </div>
+                      </div>
+                      </li>
+                      <li>
+                      <div class="item-content item-input">
+                                      <div class="item-inner">
+                                        <div class="item-title item-label">Mail</div>
+                                        <div class="item-input-wrap">
+                                          <input type="email" name="emailcontacto" placeholder="mail@mail.com" id="email">
+                                        </div>
+                                      </div>
+                      </div>
+                      </li>
+                      <!-- <li>
+                      <div class="item-content item-input">
+                                              <div class="item-inner">
+                                                <div class="item-title item-label">Comentanos brevemente 
+                                                  donde la encontraste, en que estado se encontraba y cualquier cosa 
+                                                  adicional que pueda servir para encontrar a su dueñx</div>
+                                                <div class="item-input-wrap">
+                                                  <input type="text" name="comentario" id="comentarios" placeholder="Estaba sucio 
+                                                  en la esquina de..." id="comentarios">
+                                                </div> 
+                                              </div>
+                      </div>
+                                                 </li> -->
+                                                
+
+                      <div class="item-content item-input">
+                              <div class="item-inner">
+                                <div class="item-title item-label">Subir foto</div>
+                                <div class="item-input-wrap">            
+                                  <input type="file" value="upload" id="fileButton" id="archivo">
+                                </div> 
+                              </div>
+                      </div>
+      </li>
+      </ul>
+
+      <p class="buttons-row">
+          
+          <a href="perdidas.html" class="button button-fill color-green" id="enviarDatos">Enviar</a>
+          
+        </p>
+
+
+                     <!-- <a href="perdidas.html" id="enviarDatos">Enviar</a> -->
+                      
+                                                    
+              </div> <!-- cierra div class="list" id="my-form"-->  
+
+    <!-- <div class="list-block">
+      <ul>
+         Text inputs 
+        <li>
+          <div class="item-content">
+            <div class="item-media"><i class="icon f7-icons">person</i></div>
+            <div class="item-inner">
+              <div class="item-title label">Raza/Tipo</div>
+              <div class="item-input">
+                <input type="text" placeholder="Ingresá raza/tipo">
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item-content">
+            <div class="item-media"><i class="icon f7-icons">E-mail</i></div>
+            <div class="item-inner">
+              <div class="item-title label">E-mail</div>
+              <div class="item-input">
+                <input type="email" placeholder="E-mail">
+              </div>
+            </div>
+          </div>
+        </li>
+       
+         Select
+        <li>
+          <div class="item-content">
+            <div class="item-media"><i class="icon f7-icons">persons</i></div>
+            <div class="item-inner">
+              <div class="item-title label">Animal</div>
+              <div class="item-input">
+                <select>
+                  <option>Perro/a</option>
+                  <option>Gato/a</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </li>
+         Date 
+        <li>
+          <div class="item-content">
+            <div class="item-media"><i class="icon f7-icons">calendar</i></div>
+            <div class="item-inner">
+              <div class="item-title label">Fecha</div>
+              <div class="item-input">
+                <input type="date" placeholder="Birth day" value="2014-04-30">
+              </div>
+            </div>
+          </div>
+        </li>
+       
+        
+        Textarea 
+        <li class="align-top">
+          <div class="item-content">
+            <div class="item-media"><i class="icon f7-icons">chat</i></div>
+            <div class="item-inner">
+              <div class="item-title label">Descripción</div>
+              <div class="item-input">
+                <textarea></textarea>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div> -->
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
