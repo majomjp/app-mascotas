@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# ModeloApp-F7
+# App mascotas
 =======
 # Framework7 PhoneGap Application 
 
